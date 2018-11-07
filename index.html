@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>A Cappella Championships</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="./src/index.js"></script>
+    <!-- <script src="./src/index.js"></script> -->
     <script src="./src/aCappellaGroup.js"></script>
     <link rel="stylesheet" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet">
@@ -20,16 +20,17 @@
       <table class='width-75 margin' border="1">
         <thead class='blue'>
           <tr class='padding'>
-            <th class='padding center'>College</th>
-            <th class='padding center'>Group Name</th>
-            <th class='padding center'>Membership</th>
-            <th class='padding center'>Division</th>
+            <th id="sort-college" style="cursor:default" class='padding center'>College</th>
+            <th id="sort-group" style="cursor:default" class='padding center'>Group Name</th>
+            <th id="sort-membership" style="cursor:default" class='padding center'>Membership</th>
+            <th id="sort-division" style="cursor:default" class='padding center'>Division</th>
             <th class='padding center'>Crown as Winner</th>
           </tr>
         </thead>
         <tbody id="table-body">
         </tbody>
       </table>
+      <div class="removed-from-comp"></div>
     </div>
   </body>
 </html>
